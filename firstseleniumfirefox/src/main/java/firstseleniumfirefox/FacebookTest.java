@@ -12,6 +12,7 @@ public class FacebookTest {
 		WebDriver driver=new FirefoxDriver();
 		
 		driver.get("https://www.facebook.com");
+		System.out.println(driver.getTitle());
 		
 		
 	}
